@@ -22,4 +22,4 @@ No se guarda nada en el repo en cada ejecución, así que no crece.
 Ojo: GitHub no garantiza el "cada 5 minutos"; a veces se retrasa y los datos pueden tener entre 5 y 15 minutos.
 Si el repo pasa 60 días sin cambios, GitHub pausa el robot: se reactiva desde la pestaña **Actions**.
 
-Datos: Renfe Open Data. Mapa: © OpenStreetMap, © CARTO.
+Datos: Renfe Open Data. Mapa: © OpenStreetMap.

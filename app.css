@@ -74,6 +74,8 @@ button{cursor:pointer}
 .legend{display:flex;gap:12px;flex-wrap:wrap;font-size:12.5px;color:var(--muted)}
 .legend span{display:inline-flex;align-items:center;gap:5px}
 #map{height:min(68vh,640px);min-height:360px;background:var(--panel)}
+.leaflet-tile-pane{filter:saturate(.55) contrast(.95)}
+@media (prefers-color-scheme: dark){.leaflet-tile-pane{filter:invert(1) hue-rotate(180deg) brightness(.85) contrast(.9) saturate(.4)}}
 .leaflet-container{font:inherit}
 .leaflet-tooltip.tt{font:500 12px var(--f-body);background:var(--surface);color:var(--fg);border:1px solid var(--rule);box-shadow:var(--shadow)}
 .leaflet-tooltip.tt::before{display:none}
